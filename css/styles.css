@@ -1,0 +1,46 @@
+body {
+  font-size: 62.5%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+.header {
+  height: 300px;
+  background-color: blue;
+}
+
+.logo {
+  display: inline-block;
+}
+
+h2, p {
+  text-align: center;
+}
+
+.images img {
+  padding: 0;
+}
+
+.contact {
+  padding: 1em;
+}
+
+.contact *{
+  font-size: 2em;
+}
+
+footer {
+  text-align: center;
+}
+
+@media only screen and (max-width: 965px) {
+  .disappear {
+    display: none;
+  }
+}
