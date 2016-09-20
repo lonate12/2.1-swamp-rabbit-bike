@@ -44,7 +44,7 @@
 }
 
 .second-section {
-  height: 200px;
+  min-height: 200px;
   background-color: #25BDAD;
   margin: 0;
   color: #DFDCE2;
@@ -52,6 +52,7 @@
   font-size: 46px;
   text-align: center;
   padding-top: 3%;
+  padding-bottom: 3%;
 }
 
 .second-section h3 {
@@ -132,6 +133,13 @@ footer p {
   }
 
   .carousel {
-    height: 395px;
+    height: 380px;
+  }
+  .carousel-inner, .item {
+    max-height: 380px;
+  }
+  .carousel-inner img {
+    display: block;
+    height: 100%;
   }
 }
