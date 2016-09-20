@@ -1,46 +1,137 @@
-body {
-  font-size: 62.5%;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-img {
-  max-width: 100%;
-}
+/*Color Paletter*/
+/*Fresh: #25BDAD*/
+/*Vermillion: #FF4232*/
+/*Sunshine: #FFB358*/
+/*Clean: #DFDCE2*/
+/*Brown: #784B2C*/
+/*Fonts*/
+/*font-family: 'Modak', cursive;*/
+/*font-family: 'Indie Flower', cursive;*/
+/*font-family: 'Bree Serif', serif;*/
 
 .header {
-  height: 300px;
-  background-color: blue;
+  min-height: 300px;
+  position: relative;
+  /*background-color: #FFB358;*/
+  background-image: url("http://previews.123rf.com/images/siraphol/siraphol1312/siraphol131200087/24158928-Abstract-Bicycle-wheel-in-black-and-white-style-Stock-Photo.jpg");
+  background-size: cover;
+  background-position: center center;
 }
 
-.logo {
-  display: inline-block;
+.header a {
+  display: block;
+  width: 220px;
+  margin: 30px auto;
 }
 
-h2, p {
+.header img {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+}
+
+.header h1 {
   text-align: center;
+  width: 50%;
+  margin: 0 auto 20px auto;
+  color: #DFDCE2;
+  font-size: 65px;
+  font-family: 'Bree Serif', serif;
+  font-weight: bold;
+  background-color: #25BDAD;
+  border-radius: 6px;
+  padding: 13px 13px;
 }
 
-.images img {
+.second-section {
+  height: 200px;
+  background-color: #25BDAD;
+  margin: 0;
+  color: #DFDCE2;
+  font-family: 'Bree Serif', serif;
+  font-size: 46px;
+  text-align: center;
+  padding-top: 3%;
+}
+
+.second-section h3 {
+  font-size: 34px;
+  padding-left: 45px;
+  padding-right: 45px;
+}
+
+.image-strip {
+  height: 275px;
+}
+.image-strip ul {
+  list-style: none;
+  height: 100%;
+}
+
+.image-strip li {
   padding: 0;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.image-strip img {
+  display: block;
+  width: 100%;
+  position: relative;
+  top: -10px;
+}
+
+.contact-container {
+  background-color: #25BDAD;
 }
 
 .contact {
-  padding: 1em;
+  width: 50%;
+  margin: 0 auto;
+  border: 5px solid #FFB358;
+  border-radius: 5px;
+  background-color: #DFDCE2;
+  padding: 40px 20px;
 }
 
-.contact *{
-  font-size: 2em;
+.contact p, a {
+  text-align: center;
+  color: #FF4232;
+  font-size: 25px;
+}
+
+.contact a:hover {
+  color: #FFB358;
 }
 
 footer {
-  text-align: center;
+  background-color: #25BDAD;
+  height: 25px;
+  position: relative;
+}
+
+footer p {
+  color: #fff;
+  font-size: 10px;
+  position: absolute;;
+  bottom: 0;
+  right: 21px;
+  margin: 0;
+}
+
+@media only screen and (min-width: 965px) {
+  .image-slider {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 965px) {
   .disappear {
     display: none;
+  }
+
+  .carousel {
+    height: 395px;
   }
 }
