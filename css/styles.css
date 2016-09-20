@@ -8,6 +8,9 @@
 /*font-family: 'Modak', cursive;*/
 /*font-family: 'Indie Flower', cursive;*/
 /*font-family: 'Bree Serif', serif;*/
+body {
+  background-color: #25BDAD;
+}
 
 .header {
   min-height: 300px;
