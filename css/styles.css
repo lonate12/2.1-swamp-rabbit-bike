@@ -128,6 +128,10 @@ footer p {
 }
 
 @media only screen and (max-width: 965px) {
+
+  .header h1 {
+    width: 98%;
+  }
   .disappear {
     display: none;
   }
@@ -141,5 +145,9 @@ footer p {
   .carousel-inner img {
     display: block;
     height: 100%;
+  }
+
+  .contact {
+    width: 98%;
   }
 }
